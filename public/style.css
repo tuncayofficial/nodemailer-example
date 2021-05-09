@@ -2,10 +2,12 @@
  * {
      font-family: "Montserrat", sans-serif;
      margin : 10px;
- }
+     background : #0b0b36;
+     color : white;
+ }  
 
  .card {
-     border : 0.5px solid black;
+     border : 0.5px solid white;
      padding : 10px;
      transition : 0.8s ease;
  }
@@ -19,7 +21,8 @@
      height : 45px;
      width: 250px;
      border-radius: 3px;
-     border : 0.5px solid black;
+     border : 0.5px solid white;
+     padding : 15px;
  }
 
  input:focus {
@@ -40,3 +43,8 @@
  button:hover {
      background: rgb(18, 85, 151);
  }
+
+a {
+  text-decoration : none;
+  color : dodgerBlue;
+}
