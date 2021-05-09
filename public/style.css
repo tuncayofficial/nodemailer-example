@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ * {
+     font-family: "Montserrat", sans-serif;
+     margin : 10px;
+ }
+
+ .card {
+     border : 0.5px solid black;
+     padding : 10px;
+     transition : 0.8s ease;
+ }
+
+ .card:hover {
+     position: relative;
+     bottom : 10px;
+ }
+
+ input {
+     height : 45px;
+     width: 250px;
+     border-radius: 3px;
+     border : 0.5px solid black;
+ }
+
+ input:focus {
+     border: 0.5px solid dodgerblue;
+     outline: none;
+ }
+
+ button {
+     height: 40px;
+     width: 70px;
+     cursor : pointer;
+     background: rgb(0, 128, 255);
+     border: none;
+     border-radius: 3px;
+     color: white;
+ }
+
+ button:hover {
+     background: rgb(18, 85, 151);
+ }
