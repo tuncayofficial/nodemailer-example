@@ -29,14 +29,14 @@ app.post("/send", (req, res) => {
     from: process.env.USER,
     to: email,
     subject: "Success",
-    html: "<p><strong>Successfully sent the email! Now you understand the SMTP and mail services. If you love it, please rate the <a href = \"link\">project</a></strong></p>"
+    html: "<p><strong>Successfully sent the email! Now you understand the SMTP and mail services. If you love it, please rate the <a href = \"https://github.com/henryiscoder/nodemailer-example\">project</a></strong></p>"
   };
 
   transporter.sendMail(message, function(err, data) {
     if (err) {
       console.log(err);
     } else {
-      console.log(info);
+      console.log(data);
     }
   });
 
